@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*evita que estoure o tamanho base*/ 
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #e8d7f0;
+}
+
+header{
+    background-color: #9739ce ;
+    color: #FFF;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 6px #0000001a;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+nav{
+    margin-top: 13pt;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20pt;
+}
+
+
+nav a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+nav a:hover{
+    background-color: #cbafe5;
+}
+
+img{
+    width: 40vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #cbafe5 ;;
+}
+
+
+main{
+    max-width: 70vw;
+    margin: 0 auto;
+}
+
+section{
+    background-color: #FFF;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.sobre_curso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+h2{
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+ul, ol {
+
+    margin: 15px 20px;
+}
+
+h3{
+    font-size: 1.3rem ;
+}
+
+hr{
+    width: 100%;
+    height: 3px;
+    background-color:#9739ce;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td{
+    padding: 12px 15px;
+    text-align: left;
+    border-color: #9739ce;
+
+}
+
+th{
+    background-color: #cbafe5;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+tbody tr:nth-child(even){
+    background-color: #d6b0e6;
+}
+
+tbody tr:hover{
+    background-color: #d6b0e6;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea
+{
+     width: 100%;
+     padding: 10px;
+     margin-top: 5px;
+     border: 2px solid #d6b0e6;
+     border-radius: 5px;
+     font-size: 1.1rem;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus{
+    border-color: #9739ce;
+    outline: none;
+    box-shadow: 0 0 5px #9739ce;
+}
+
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+button{
+    width: 100%;
+    color: #FFF;
+    background-color: #9739ce;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #9739ce;
+    color: #FFF;
+    font-size: 1rem;
+}
+
+i{
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+i:hover{
+    transform: scale(1.3);
+}
